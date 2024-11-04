@@ -44,6 +44,18 @@ section {
     padding-top: 20px;
 }
 
+#create-task-form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px; /* Adds space between form elements */
+}
+
+.form-input,
+.form-button {
+    width: 100%; /* Ensure the fields and button use the full width */
+}
+
+
 .modal-header {
     cursor: move;
     background-color: #f1f1f1;
