@@ -19,12 +19,12 @@
         <div id="task-modal" class="modal">
             <div class="modal-header" id="modal-header">
                 <span class="close" id="close-modal">&times;</span>
-                <h2>Create a New Task</h2>
+                <h2 id="modal-header-text">Create a New Task</h2>
             </div>
             <div class="modal-content">
                 <form id="create-task-form">
                     <input type="text" class="form-input" placeholder="Task Title" required>
-                    <textarea class="form-input" placeholder="Task Description"></textarea>
+                    <textarea class="form-input" id="task-desc" placeholder="Task Description"></textarea>
                     <input type="text" class="form-input" placeholder="Tags (comma-separated)">
                     <button type="submit" class="form-button">Add Task</button>
                 </form>                
